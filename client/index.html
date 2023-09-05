@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Information</h2>
+      <form>
+        <label for="username">Username:</label>
+        <div class="name-inputs">
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="*First Name"
+            required
+          />
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+
+        <label for="address">Address:</label>
+        <div class="name-inputs">
+          <input
+            type="text"
+            id="street"
+            name="street"
+            placeholder="*Street / local area"
+            required
+          />
+          <input
+            type="text"
+            id="landmark"
+            name="landmark"
+            placeholder="*Landmark"
+            required
+          />
+        </div>
+
+        <div class="name-inputs">
+          <input
+            type="number"
+            id="postalCode"
+            name="postalCode"
+            placeholder="*Postal code"
+            required
+          />
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="*City"
+            required
+          />
+        </div>
+
+        <div class="name-inputs">
+          <input
+            type="text"
+            id="state"
+            name="state"
+            placeholder="*State"
+            required
+          />
+          <input
+            type="text"
+            id="country"
+            name="country"
+            placeholder="*Country"
+            required
+          />
+        </div>
+
+        <button type="submit" id="submitBtn" disabled>Submit</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
